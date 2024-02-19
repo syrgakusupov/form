@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contacts{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   height: 100vh; 
+   background-image: url(./images/IMG_3247-scaled-1.jpg);
+   background-size: cover;
+}
+.contacts img{
+    width: 200px;
+    
+}    
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(53, 53, 52, 0.438);
+    border-radius: 30px;
+    height: 500px;
+    padding: 0 30px;
+}
+.row h1{
+    font-size: 36px;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.form .name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.form .name input{
+    outline: none;
+    width: 350px;
+    height: 36px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 20px;
+}
+.form .name input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.select{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    
+}
+.select select{
+    outline: n;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.select option{
+    color: rgb(97, 41, 3);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.btn input{
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="contacts">
+        <img src="./images/knau.png" alt="">
+    
+        <div class="row">
+            
+            <h1><span>Заявка</span></h1>        
+                
+
+                <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                    
+                    <div class="name">
+                        <input type="hidden" name="access_key" value="97f819b9-48cd-400b-8350-2276cd321582">
+                        <input type="text" name="Фамилия" required placeholder="Фамилия">
+                        <input type="text" name="Имя" required placeholder="Имя">
+                        <input type="text" name="Отчество" required placeholder="Отчество">
+                        <input type="email" name="email" required placeholder="Электронная почта">
+                        <input type="tel" name="Телефон whatsapp" required placeholder="Телефон whatsapp">
+                    </div>
+                
+                    <div class="select">
+                        <select name="Курсы" required class="box">
+                            <option value="" disabled selected>Курсы</option>
+                            <option value="1-курс">1-курс</option>
+                            <option value="2-курс">2-курс</option>
+                            <option value="3-курс">3-курс</option>
+                            <option value="4-курс">4-курс</option>
+                        </select>
+
+                        <select name="Документы" required  class="box">
+                            <option value="" disabled selected>Документ</option>
+                            <option value="Справка в военкомат">Справка в военкомат</option>
+                            <option value="контракт">контракт</option>
+                            <option value="допуск">допуск</option>
+                            
+                        </select>
+                    
+                    </div>
+
+                    <div class="btn">
+                        <input type="reset">
+                        <input type="submit">
+                    </div>
+                    
+                </form>
+           
+        </div>
+    </section>
+
+    
+
+    
+    <script src="https://rawcdn.githack.com/RobinHerbots/Inputmask/a95afe64e7467eb14eb8aa8ccbfb6340a46fb8e3/dist/inputmask.min.js"></script>
+    <script src="./script/main.js"></script>
+</body>
+</html>
